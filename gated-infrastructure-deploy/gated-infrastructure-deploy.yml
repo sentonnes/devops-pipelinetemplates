@@ -38,7 +38,7 @@ jobs:
       runOnce:
         deploy:
           steps:
-            - checkout: UKHOTemplates
+            - checkout: AzDOTemplates
               persistCredentials: true
               path: devops-pipelinetemplates
 
@@ -93,7 +93,7 @@ jobs:
       runOnce:
         deploy:
           steps:
-            - checkout: UKHOTemplates
+            - checkout: AzDOTemplates
               persistCredentials: true
               path: devops-pipelinetemplates
 
